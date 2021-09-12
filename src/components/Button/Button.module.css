@@ -1,0 +1,27 @@
+.Button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: rgb(250, 128, 114);
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  width: 180px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Button:hover,
+.Button:focus {
+  background: rgb(67, 67, 67);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
